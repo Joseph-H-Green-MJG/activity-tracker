@@ -1,4 +1,4 @@
-import  LocalStorageComponent from './components/local-storage/LocalStorageComponent';
+import  TimerComponent from './components/Timer/timerComponent';
 import './App.css'
 
 function App() { 
@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div className='title'>
-        <LocalStorageComponent />
+        <TimerComponent />
       </div>
     </>
   )
